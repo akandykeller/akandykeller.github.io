@@ -21,7 +21,7 @@ baseurl:   ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Anderson Keller
+title:                 T. Anderson Keller
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -174,7 +174,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         mathjax
+  math_engine:         mathjax #katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -207,7 +207,7 @@ hydejack:
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    True
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false

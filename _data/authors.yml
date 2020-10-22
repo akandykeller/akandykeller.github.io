@@ -2,13 +2,18 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Andy Keller
+  name:              T. Andy Keller
   email:             akandykeller@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     PhD Student supervised by Max Welling at the University of Amsterdam. 
+
+    asd
+    asd
+
+    asdasd
     
   # This photo will be used in the about section
   picture:
