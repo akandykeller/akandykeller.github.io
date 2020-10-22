@@ -21,16 +21,15 @@ baseurl:   ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Andy Keller
+title:                 Anderson Keller
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  T. Anderson Keller's personal website containing his publications, blog, and CV.
 
 # A shorter description for the sidebar.
-tagline:               A Machine Learning Blog
+tagline:               Machine Learning PhD Student
 
 # A list of keywords for your blog
 keywords:              []
@@ -38,23 +37,23 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/ak.png
+# logo:                  /assets/img/croissant.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Andy Keller
+  email:               akandykeller@gmail.com
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             nd_rs_n
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
+  - title:             Publications
+    url:               /publications/
+  - title:             Blog
+    url:               /blog/
+  - title:             About Me
     url:               /about/
 
 # Add links to the footer.
@@ -64,8 +63,6 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2020. All rights reserved.
