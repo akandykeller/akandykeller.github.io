@@ -15,9 +15,10 @@ Overview of self normalizing flows. A matrix $$\mathbf{W}$$ transforms $$\mathbf
 
 Efficient gradient computation of the Jacobian determinant term is a core problem of the normalizing flow framework. Thus, most proposed flow models either restrict to a function class with easy evaluation of the Jacobian determinant, or an efficient estimator thereof. However, these restrictions limit the performance of such density models, frequently requiring significant depth to reach desired performance levels. In this work, we propose *Self Normalizing Flows*, a flexible framework for training normalizing flows by replacing expensive terms in the gradient by learned approximate inverses at each layer. This reduces the computational complexity of each layer's exact update from $$\mathcal{O}(D^3)$$ to $$\mathcal{O}(D^2)$$, allowing for the training of flow architectures which were otherwise computationally infeasible, while also providing efficient sampling.  We show experimentally that such models are remarkably stable and optimize to similar data likelihood values as their exact gradient counterparts, while surpassing the performance of their functionally constrained counterparts.
 {:.note title="Abstract"}
-**T. Anderson Keller**, [Jorn Peters](http://jornpeters.nl), [Priyank Jaini](https://cs.uwaterloo.ca/~pjaini/home/), [Emiel Hoogeboom](https://ehoogeboom.github.io/), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
+**T. Anderson Keller**, [Jorn Peters](http://jornpeters.nl), [Priyank Jaini](https://cs.uwaterloo.ca/~pjaini/home/), [Emiel Hoogeboom](https://ehoogeboom.github.io/), [Patrick Forré](https://www.uva.nl/en/profile/f/o/p.d.forre/p.d.forre.html), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
 {:.note title="Authors"}
-*ArXiv*: [https://arxiv.org/abs/1908.09257](https://arxiv.org/abs/1908.09257) \\
+<!-- *ArXiv*: [https://arxiv.org/abs/1908.09257](https://arxiv.org/abs/1908.09257) \\ -->
+*Paper*: [https://akandykeller.github.io/publications/Self_Normalizing_Flows.pdf](https://akandykeller.github.io/publications/Self_Normalizing_Flows.pdf) \\
 *Submitted to:* [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
 
