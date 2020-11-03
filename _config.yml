@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://akandykeller.github.io
+url:                   keller.org # https://akandykeller.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -37,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-# logo:                  /assets/img/croissant.png
+# logo:                  /assets/img/about_me/me_square_256.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,10 +49,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Publications
-    url:               /publications/
-  - title:             Blog
-    url:               /blog/
+  - title:             Research
+    url:               /research/
+  # - title:             Blog
+  #   url:               /blog/
   - title:             About Me
     url:               /about/
 
@@ -103,7 +103,7 @@ remote_theme: hydecorp/hydejack@v9.0.5
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/global/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -174,7 +174,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         mathjax #katex
+  math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 

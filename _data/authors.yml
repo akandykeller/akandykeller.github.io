@@ -8,20 +8,19 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    PhD Student supervised by Max Welling at the University of Amsterdam. 
+    T. Anderson Keller (AKA Andy Keller) is a PhD Student supervised by Max Welling at the University of Amsterdam. 
+    His work is focused on improving respresentation learning with minimal supervision -- inspired by both geometry and biology.
+    See [About Me](/about) for more information.
 
-    asd
-    asd
-
-    asdasd
-    
   # This photo will be used in the about section
   picture:
-    path:            https://pbs.twimg.com/profile_images/1317927161060360192/2aTaP4Lo_400x400.jpg
+    path:            /assets/img/about_me/me_square.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    # srcset:
-    #   1x:            https://placehold.it/128x128
-    #   2x:            https://placehold.it/256x256
+    srcset:
+      128w:           /assets/img/about_me/me_square_128.jpg
+      256w:           /assets/img/about_me/me_square_256.jpg
+      512w:           /assets/img/about_me/me_square_512.jpg
+      853w:            /assets/img/about_me/me_square.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
