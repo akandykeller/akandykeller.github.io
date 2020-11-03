@@ -13,7 +13,7 @@ redirect_from:
 ![me](/assets/img/about_me/me_long.jpg){: location='center' width="512" height="512" loading="lazy"}
 
 
-My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on developing new methods for robust and generalizable respresentation learning with minimal supervision. I take inspiration from a geometric understanding and biological observations whenever possible. My research interests broadly include: *Generative Probabilistic Models, Equivariant Representations, & Biologically Inspired Algorithms*
+My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on developing new methods for robust and generalizable respresentation learning with minimal supervision. I take inspiration from a geometric understanding and biological observations whenever possible. My research interests broadly include: *Probabilistic Generative Models, Equivariant Representations, & Biologically Inspired Algorithms*
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
@@ -21,7 +21,7 @@ My first name is Thomas, but most people call me by my middle name -- Andy. I'm 
 <details>
   <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam </summary>
   Supervisor: Max Welling <br/>
-  Focus: Generative Probabilistic Models, Equivariance, Semi-supervised learning
+  Focus: Probabilistic Generative Models, Equivariance, Biologically Inspired Algorithms
 </details>
 
 <details>
@@ -32,7 +32,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 
 <details>
   <summary markdown="span"> **B.Sc. Computer Science w/ Honors** *(2011 - 2015)* California Institute of Technology  </summary>
-  Supervisor: Yasser Abu Mostafa
+  Supervisor: Yasser Abu-Mostafa
 </details>
 
 
@@ -80,7 +80,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 - [Data Visualization](https://mas-dse.github.io/DSE241/exercises/) (D3.js) 
 
 ## Personal
-Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and building things. I am also an active organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning.
+Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and building things. I am also an active organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
 
 # Social Media
 
