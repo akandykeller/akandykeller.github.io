@@ -9,7 +9,7 @@ title: Self Normalizing Flows
 sitemap: false
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
-![Self Normalizing Flow Overview](/assets/img/research/snf/snf_overview_single_longer.png){:.lead width="5346" height="1916" loading="lazy"}
+![Self Normalizing Flow Overview](/assets/img/research/snf/snf_overview_single_longer_small.jpg){:.lead width="2974" height="958" loading="lazy"}
 A matrix $$\mathbf{W}$$ transforms data from $$\mathbf{X}$$ to $$\mathbf{Z}$$ space. The matrix $$\mathbf{R}$$ is constrained to approximate the inverse of $$\mathbf{W}$$ with a reconstruction loss $$||\mathbf{x} - \mathbf{\hat{x}}||^2$$. The likelihood of the data is efficiently optimized with respect to both $$\mathbf{W}$$ and $$\mathbf{R}$$ by approximating the gradient of the log Jacobian determinant with the learned inverse.
 {:.figcaption}
 
@@ -44,7 +44,7 @@ $$
 \begin{equation}
 \begin{split}
     p_{\mathbf{X}}(\mathbf{x}) & = p_{\mathbf{Z}}(\mathbf{z}) \left|\frac{\partial \mathbf{z}}{\partial\mathbf{x}}\right|\\
-    \Rightarrow p^g_{\mathbf{X}}(\mathbf{x}) &  = p_{\mathbf{Z}}\left(g^{-1}(\mathbf{x})\right) \left|\mathbf{J}_{g^{-1}}\right| \\ 
+    \Rightarrow p^g_{\mathbf{X}}(\mathbf{x}) & = p_{\mathbf{Z}}\left(g^{-1}(\mathbf{x})\right) \left|\mathbf{J}_{g^{-1}}\right| \\ 
     \Rightarrow p^f_{\mathbf{X}}(\mathbf{x}) & = p_{\mathbf{Z}}\big(f(\mathbf{x})\big) \left|\mathbf{J}_f\right|\\
 \end{split}
 \end{equation}
@@ -53,7 +53,7 @@ $$
 
 Where $$\left| \mathbf{J}_f \right| = \left|\frac{\partial f(\mathbf{x})}{\partial\mathbf{x}}\right|$$ is the absolute value of the determinant of the [Jacobian](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant) of the transformation between $$\mathbf{z}$$ and $$\mathbf{x}$$, evaluated at $$\mathbf{x}$$. This term can intuitively be seen as accounting for the change of volume of the transformation between $$\mathbf{z}$$ and $$\mathbf{x}$$. In other words, it is the ratio of the size of an infinitesimally small volume around $$\mathbf{z}$$ divided by the size of the corresponding transformed volume around $$\mathbf{x}$$. We illustrate this simply with the following figure: 
 <br /><br />
-![change_of_variables](/assets/img/research/snf/cov.png){: width="16966" height="7748" loading="lazy"}
+![change_of_variables](/assets/img/research/snf/cov_small.png){: width="2121" height="969" loading="lazy"}
 <br /><br />
 We see then, if we parameterize a function $$f_{\theta}$$ with a set of parameters $$\theta$$, and pick a base distribution $$p_{\mathbf{Z}}$$, we can use the above equation to maximize the probability of observed data $$\mathbf{x}$$ under our induced distributions $$p_{\mathbf{X}}^f(\mathbf{x})$$. 
 <br /><br />
@@ -114,11 +114,11 @@ where $$\mathrm{flip}(\mathbf{r})$$ corresponds to the kernel which achieves the
 ## Results
 We evaluate our model by incorporating the above self normalizing layers into simple flow architectures and training them to maximize the proposed mixture objective on the MNIST dataset. We refer to the paper to see the full results and experiment details, but provide some highlights here. In the figure below, we show that a basic flow model composed of 2 self normalizing fully connected layers (SNF FC 2L) achieves similar (or better) performance than its exact gradient counterpart (Exact FC 2L), while training significantly faster. 
 
-![2L Inset](/assets/img/research/snf/2L_inset.png){: width="500" loading="lazy"}
+![2L Inset](/assets/img/research/snf/2L_inset_small.jpg){: width="1644" height="1161" loading="lazy"}
 
 We can additionally see that samples from the model appear to match samples from the true data distribution. In the figure below, we show samples from $$p_{\mathbf{Z}}$$ passed through both the true inverse $$\mathbf{x} = f^{-1}(\mathbf{z})$$ (top) and the learned inverse $$\mathbf{x} = g(\mathbf{z})$$ (bottom). We see that the samples are virtually indistinguishable, thus implying that the model has learned to approximate its own inverse well, while simultaneously learning a good model of the data distribution. 
 
-![Samples](/assets/img/research/snf/Glow_samples_(approxbot).png){: width="500" loading="lazy"}
+![Samples](/assets/img/research/snf/Glow_samples_(approxbot).png){: width="302" height="67" loading="lazy"}
 
 <!-- 
 We evaluate our model by incorporating the above self normalizing layers into simple flow architectures and training them to maximize the proposed mixture objective on the MNIST dataset. We constrain the networks to be small such that we can compare directly with the same architectures trained using the exact gradient. As can be seen in the following figure and table, the models with self normalizing flow layers are nearly identical in performance to the exact gradient counterparts, while taking significantly less time to train. Additionally, we see that the self normalizing flow layer outperforms its constrained convolutional counterpart from [Hoogeboom et al. 2019](https://arxiv.org/abs/1901.11137), and the relative gradient method of [Gresele et al. 2020](https://arxiv.org/abs/2010.07033). We hypothesize that the convolutional self normalizing flow model slightly underperforms the exact gradient method due to the convolutional-inverse constraint. We propose this constraint can be relaxed by using a fully connected inverse $$g$$ (see the paper appendix), but leave this to future work. 
