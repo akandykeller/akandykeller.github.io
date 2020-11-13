@@ -21,6 +21,8 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 *Paper*: [Self_Normalizing_Flows.pdf](https://akandykeller.github.io/papers/Self_Normalizing_Flows.pdf) \\
 *Accepted at:* [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
+*Github Repo*: [github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
+{:.note title="Code"}
 
 <!-- {:.lead} -->
 
@@ -53,7 +55,7 @@ $$
 
 Where $$\left| \mathbf{J}_f \right| = \left|\frac{\partial f(\mathbf{x})}{\partial\mathbf{x}}\right|$$ is the absolute value of the determinant of the [Jacobian](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant) of the transformation between $$\mathbf{z}$$ and $$\mathbf{x}$$, evaluated at $$\mathbf{x}$$. This term can intuitively be seen as accounting for the change of volume of the transformation between $$\mathbf{z}$$ and $$\mathbf{x}$$. In other words, it is the ratio of the size of an infinitesimally small volume around $$\mathbf{z}$$ divided by the size of the corresponding transformed volume around $$\mathbf{x}$$. We illustrate this simply with the following figure: 
 <br /><br />
-![change_of_variables](/assets/img/research/snf/cov_small.png){: width="2121" height="969" loading="lazy"}
+![change_of_variables](/assets/img/research/snf/cov_small.jpg){: width="2121" height="969" loading="lazy"}
 <br /><br />
 We see then, if we parameterize a function $$f_{\theta}$$ with a set of parameters $$\theta$$, and pick a base distribution $$p_{\mathbf{Z}}$$, we can use the above equation to maximize the probability of observed data $$\mathbf{x}$$ under our induced distributions $$p_{\mathbf{X}}^f(\mathbf{x})$$. 
 <br /><br />
@@ -140,11 +142,10 @@ We evaluate our model by incorporating the above self normalizing layers into si
 We see that the above framework yields an efficient update rule for flow-based models which appears to perform similarly to the exact gradient while allowing for the training of flow architectures which were otherwise computationally infeasible. We believe this opens up a broad range of new research directions involving less constrained flows, and intend to investigate such directions in future work. Furthermore, we believe the biological motivation and plausibility of this model are also worth exploring further. Ideally, we believe the gradient approximation used here could be combined with backpropagaion-free training methods such as *Target Propagation*, allowing for a fully backprop-free unsupervised density model.
 
 ## Example Implementation
-Below we give an example implementation of the above convolutional layer in Pytorch. We make use of the pytorch autograd API to create a fast and modular implementation. We note that this implementation still requires the layer-wise reconstruction gradients to be computed and added to this separately. The full code for the paper will be available soon!
+Below we give an example implementation of the above convolutional layer in Pytorch (which is also a generalization of the fully connected layer). We make use of the pytorch autograd API to create a fast and modular implementation. We note that this implementation still requires the layer-wise reconstruction gradients to be computed and added to this separately. The full code for the paper is available at the repository here: [github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
 
 ~~~python
 class SelfNormConvFunc(autograd.Function):
-
     @staticmethod
     def forward(ctx, x, W, bw, R, stride, padding, dilation, groups):
         z = F.conv2d(x, W, bw, stride, padding, dilation, groups)
@@ -164,48 +165,56 @@ class SelfNormConvFunc(autograd.Function):
         padding = torch.Size(ctx.padding)
         dilation = torch.Size(ctx.dilation)
         groups = ctx.groups
+        benchmark = False
+        deterministic = False
 
-        with torch.no_grad():
-            benchmark = False
-            deterministic = False
+        multiple = _compute_weight_multiple(W.shape, output, x, padding, stride, 
+                            dilation, groups, benchmark, deterministic)
 
-            multiple = _compute_weight_multiple(W.shape, output, x, padding, stride, 
-                                dilation, groups, benchmark, deterministic)
+        # Grad_W LogP(x)
+        delta_z_xt = conv2d_backward.backward_weight(W.shape, output_grad, x, 
+                                                     padding, stride, dilation, 
+                                                     groups, benchmark, deterministic)
+        weight_grad_fwd = (delta_z_xt - flip_kernel(R) * multiple) / 2.0
 
-            # Forward grad LogPx
-            delta_x = conv2d_backward.backward_weight(
-                W.shape, output_grad, x, padding, stride, dilation, groups,
-                benchmark, deterministic)
-            W_inv_T = flip_kernel(R) * multiple
-            weight_grad_fwd = (delta_x - W_inv_T) / 2.0
+        # Grad_R LogP(x)
+        input_grad = conv2d_backward.backward_input(x.shape, output_grad, W,
+                                                    padding, stride, dilation,
+                                                    groups, benchmark,
+                                                    deterministic)
+        Wx = output - bw.view(1, -1, 1, 1) if bw is not None else output
+        neg_delta_x_Wxt = conv2d_backward.backward_weight(W.shape, -1*input_grad, Wx,
+                                                          padding, stride, dilation, 
+                                                          groups, benchmark, 
+                                                          deterministic)
+        weight_grad_inv = (neg_delta_x_Wxt + flip_kernel(W) * multiple) / 2.0
 
-            # Inv grad LogPx
-            Wt_delta = -1 * nn.functional.conv_transpose2d(output_grad, W, bias=None, 
-                                                        stride=stride, padding=padding,
-                                                        dilation=dilation, groups=groups)
-            # Obviously also output - bw
-            W_x = nn.functional.conv2d(x, W, bias=None, 
-                                    stride=stride, padding=padding,
-                                    dilation=dilation, groups=groups)
-
-            Wt_delta_W_x = conv2d_backward.backward_weight(
-                W.shape, Wt_delta, W_x, padding, stride, dilation, groups,
-                benchmark, deterministic)
-
-            weight_grad_inv = (Wt_delta_W_x + flip_kernel(W) * multiple) / 2.0
-
-            if bw is not None:
-                # Sum over all except output channel
-                bw_grad = output_grad.view(output_grad.shape[:-2] + (-1,)).sum(-1).sum(0) 
-            else:
-                bw_grad = None
-
-            input_grad = conv2d_backward.backward_input(x.shape, output_grad, W,
-                                                        padding, stride, dilation,
-                                                        groups, benchmark,
-                                                        deterministic)
+        if bw is not None:
+            # Sum over all except output channel
+            bw_grad = output_grad.view(output_grad.shape[:-2] + (-1,)).sum(-1).sum(0) 
+        else:
+            bw_grad = None
 
         return input_grad, weight_grad_fwd, bw_grad, weight_grad_inv, None, None, None, None
+~~~
+
+The above code requires the use of pytorch's autograd functions `backward_weight` and `backward_input`. The pytorch implementations can be found [here](https://github.com/pytorch/pytorch/blob/master/torch/nn/grad.py#L129), however, these are much slower than the C++ implementations. To use the C++ implementations, we built a simply torch C++ extension. Please see the full repository for reference. 
+
+Finally, the above code makes use of two helper functions to compute the multiple, and 'flip' the kernel, these functions can be implemented as:
+~~~python
+@lru_cache(maxsize=128)
+def _compute_weight_multiple(wshape, output, x, padding, stride, dilation, 
+                                 groups, benchmark, deterministic):
+    batch_multiple =  conv2d_backward.backward_weight(wshape, 
+                                           torch.ones_like(output),
+                                           torch.ones_like(x),
+                                           padding, stride, dilation,
+                                           groups, benchmark, deterministic)
+    return batch_multiple / len(x)
+
+
+def flip_kernel(W):
+    return torch.flip(W, (2,3)).permute(1,0,2,3).clone()
 ~~~
 
 [^1]:  Similarly, the goal of probabilistic generative models can be seen as designing models which are able to generate data which appears to come from the same distribution as real data.
