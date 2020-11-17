@@ -18,7 +18,7 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 **T. Anderson Keller**, [Jorn Peters](http://jornpeters.nl), [Priyank Jaini](https://cs.uwaterloo.ca/~pjaini/home/), [Emiel Hoogeboom](https://ehoogeboom.github.io/), [Patrick Forré](https://www.uva.nl/en/profile/f/o/p.d.forre/p.d.forre.html), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
 {:.note title="Authors"}
 <!-- *ArXiv*: [https://arxiv.org/abs/1908.09257](https://arxiv.org/abs/1908.09257) \\ -->
-*Paper*: [Self_Normalizing_Flows.pdf](https://akandykeller.github.io/papers/Self_Normalizing_Flows.pdf) \\
+*Paper*: [Self Normalizing Flows](https://arxiv.org/abs/2011.07248) \\
 *Accepted at:* [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
 *Github Repo*: [github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
@@ -119,9 +119,9 @@ We evaluate our model by incorporating the above self normalizing layers into si
 ![2L Inset](/assets/img/research/snf/2L_inset_small.jpg){: width="1644" height="1161" loading="lazy"}
 
 We can additionally see that samples from the model appear to match samples from the true data distribution. In the figure below, we show samples from $$p_{\mathbf{Z}}$$ passed through both the true inverse $$\mathbf{x} = f^{-1}(\mathbf{z})$$ (top) and the learned inverse $$\mathbf{x} = g(\mathbf{z})$$ (bottom). We see that the samples are virtually indistinguishable, thus implying that the model has learned to approximate its own inverse well, while simultaneously learning a good model of the data distribution. 
-
-![Samples](/assets/img/research/snf/Glow_samples_(approxbot).png){: width="302" height="67" loading="lazy"}
-
+<div style="text-align:center">
+<img src='/assets/img/research/snf/Glow_samples_(approxbot).png' width=512>
+</div>
 <!-- 
 We evaluate our model by incorporating the above self normalizing layers into simple flow architectures and training them to maximize the proposed mixture objective on the MNIST dataset. We constrain the networks to be small such that we can compare directly with the same architectures trained using the exact gradient. As can be seen in the following figure and table, the models with self normalizing flow layers are nearly identical in performance to the exact gradient counterparts, while taking significantly less time to train. Additionally, we see that the self normalizing flow layer outperforms its constrained convolutional counterpart from [Hoogeboom et al. 2019](https://arxiv.org/abs/1901.11137), and the relative gradient method of [Gresele et al. 2020](https://arxiv.org/abs/2010.07033). We hypothesize that the convolutional self normalizing flow model slightly underperforms the exact gradient method due to the convolutional-inverse constraint. We propose this constraint can be relaxed by using a fully connected inverse $$g$$ (see the paper appendix), but leave this to future work. 
 
@@ -220,4 +220,4 @@ def flip_kernel(W):
 [^1]:  Similarly, the goal of probabilistic generative models can be seen as designing models which are able to generate data which appears to come from the same distribution as real data.
 [^2]: Or equivalently, learn the inverse of each layer. We note that we are far from the first to propose this idea. The works of [Difference Target Propagation](https://arxiv.org/abs/1412.7525), and [(Rippel and Adams 2013)](https://arxiv.org/abs/1302.5125) both use similar learned inverses at each layer for different purposes, just to name a few. Our work however, is the first to our knowledge to propose using the learned inverse as a direct approximation to computaionally expensive gradients. Please see the [full paper](https://akandykeller.github.io/papers/Self_Normalizing_Flows.pdf) for a full overview of related work.
 [^3]: The gradient is given exaclty by the inverse parameters only in the case of linear transformations (since in this case the Jacobian of the transformation is equal to the linear map itself). For non-linear self normalizing flows we direct the reader to the general framework of our paper, where the Jacobian of the inverse transformation is used in-place of the inverse of the Jacobian of the forward transformation. 
-[^4]: This assumes that $$f^{-1} \approx g$$ implies $$\mathbf{J}_{f^{-1}} \approx \mathbf{J}_g$$. We note that this is true for all linear functions $f$, but may not be true for certain high frequency functions. In such cases, we propose the penalize the jacobians to be approximately equal directly.
+[^4]: This assumes that $$f^{-1} \approx g$$ implies $$\mathbf{J}_{f^{-1}} \approx \mathbf{J}_g$$. We note that this is true for all linear functions $$f$$, but may not be true for certain high frequency functions. In such cases, we propose the penalize the jacobians to be approximately equal directly.

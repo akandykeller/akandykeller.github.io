@@ -17,21 +17,22 @@ My first name is Thomas, but most people call me by my middle name -- Andy. I'm 
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
-## Education
+## Education (click <img src="/assets/img/about_me/triangle.jpg" width="20"/> to expand)
 <details>
-  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam </summary>
+  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam   </summary>
+
   Supervisor: Max Welling <br/>
   Focus: Probabilistic Generative Models, Equivariance, Biologically Inspired Algorithms
 </details>
 
 <details>
-  <summary markdown="span"> **M.Sc. Computer Science** *(2015 - 2017)* University of California San Diego </summary>
+  <summary markdown="span"> **M.S. Computer Science** *(2015 - 2017)* University of California San Diego </summary>
 Supervisor: Garrison Cottrell<br/>
 Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natural Language Processing</emph><br/>
 </details>
 
 <details>
-  <summary markdown="span"> **B.Sc. Computer Science w/ Honors** *(2011 - 2015)* California Institute of Technology  </summary>
+  <summary markdown="span"> **B.S. Computer Science w/ Honors** *(2011 - 2015)* California Institute of Technology  </summary>
   Supervisor: Yasser Abu-Mostafa
 </details>
 
@@ -62,6 +63,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 
 <details>
   <summary markdown="span"> **California Institute of Technology** (Undergraduate Researcher 2012) </summary>
+
   <ul>
     <li>Paper: <a href="https://arxiv.org/abs/1308.1483">Experimental Realization of a Nonlinear Acoustic Lens with a Tunable Focus</a></li>
     <li>Gathered and analyzed waveforms from an acoustinc lens to determine optimal characteristics of interface materials.</li>
@@ -80,7 +82,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 - [Data Visualization](https://mas-dse.github.io/DSE241/exercises/) (D3.js) 
 
 ## Personal
-Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and building things. I am also an active organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
+Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I am also an active organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
 
 # Social Media
 
