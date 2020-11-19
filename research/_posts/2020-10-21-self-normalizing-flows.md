@@ -17,8 +17,7 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 {:.note title="Abstract"}
 **T. Anderson Keller**, [Jorn Peters](http://jornpeters.nl), [Priyank Jaini](https://cs.uwaterloo.ca/~pjaini/home/), [Emiel Hoogeboom](https://ehoogeboom.github.io/), [Patrick Forré](https://www.uva.nl/en/profile/f/o/p.d.forre/p.d.forre.html), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
 {:.note title="Authors"}
-<!-- *ArXiv*: [https://arxiv.org/abs/1908.09257](https://arxiv.org/abs/1908.09257) \\ -->
-*Paper*: [Self Normalizing Flows](https://arxiv.org/abs/2011.07248) \\
+*ArXiv Paper*: <https://arxiv.org/abs/2011.07248> \\
 *Accepted at:* [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
 *Github Repo*: [github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
@@ -218,6 +217,6 @@ def flip_kernel(W):
 ~~~
 
 [^1]:  Similarly, the goal of probabilistic generative models can be seen as designing models which are able to generate data which appears to come from the same distribution as real data.
-[^2]: Or equivalently, learn the inverse of each layer. We note that we are far from the first to propose this idea. The works of [Difference Target Propagation](https://arxiv.org/abs/1412.7525), and [(Rippel and Adams 2013)](https://arxiv.org/abs/1302.5125) both use similar learned inverses at each layer for different purposes, just to name a few. Our work however, is the first to our knowledge to propose using the learned inverse as a direct approximation to computaionally expensive gradients. Please see the [full paper](https://akandykeller.github.io/papers/Self_Normalizing_Flows.pdf) for a full overview of related work.
+[^2]: Or equivalently, learn the inverse of each layer. We note that we are far from the first to propose this idea. The works of [Difference Target Propagation](https://arxiv.org/abs/1412.7525), and [(Rippel and Adams 2013)](https://arxiv.org/abs/1302.5125) both use similar learned inverses at each layer for different purposes, just to name a few. Our work however, is the first to our knowledge to propose using the learned inverse as a direct approximation to computaionally expensive gradients. Please see the [full paper](https://arxiv.org/abs/2011.07248) for a full overview of related work.
 [^3]: The gradient is given exaclty by the inverse parameters only in the case of linear transformations (since in this case the Jacobian of the transformation is equal to the linear map itself). For non-linear self normalizing flows we direct the reader to the general framework of our paper, where the Jacobian of the inverse transformation is used in-place of the inverse of the Jacobian of the forward transformation. 
 [^4]: This assumes that $$f^{-1} \approx g$$ implies $$\mathbf{J}_{f^{-1}} \approx \mathbf{J}_g$$. We note that this is true for all linear functions $$f$$, but may not be true for certain high frequency functions. In such cases, we propose the penalize the jacobians to be approximately equal directly.

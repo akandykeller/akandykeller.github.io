@@ -87,6 +87,6 @@ Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.co
 # Social Media
 
 <div style="width: 100%; overflow: hidden;">
-     <div style="margin-left: 50px; width: 350px; height: 454px; float: left;">  <a class="twitter-timeline" data-width="300" data-height="454" data-theme="light" href="https://twitter.com/nd_rs_n?ref_src=twsrc%5Etfw">Tweets by nd_rs_n</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+     <div style="margin-left: 50px; width: 350px; height: 454px; float: left;">  <a class="twitter-timeline" href="https://twitter.com/t_andy_keller?ref_src=twsrc%5Etfw">Tweets by t_andy_keller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
      <div style="margin-left: 50px;"> <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29469611/latest-rides/5b9c0f7af24df56fcbe46f3d9aa50e6b5196723d'></iframe> </div>
 </div>
