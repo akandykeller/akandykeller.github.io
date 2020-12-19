@@ -20,7 +20,9 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 *ArXiv Paper*: <https://arxiv.org/abs/2011.07248> \\
 *Accepted at:* [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
-*Github Repo*: [github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
+<https://www.youtube.com/watch?v=6Q3b3MergqI>
+{:.note title="Video Overview"}
+[Github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
 {:.note title="Code"}
 
 <!-- {:.lead} -->
