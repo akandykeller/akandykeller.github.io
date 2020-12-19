@@ -45,14 +45,14 @@ author:
   name:                Andy Keller
   email:               akandykeller@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter:             nd_rs_n
+  twitter:             t_andy_keller
 
 # Add links to the sidebar.
 menu:
   - title:             Research
     url:               /research/
-  # - title:             Blog
-  #   url:               /blog/
+  - title:             Blog
+   url:               /blog/
   - title:             About Me
     url:               /about/
 
@@ -202,7 +202,8 @@ kramdown:
 hydejack:
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related, random, comments]
-
+  # post_addons:         [about, newsletter, random, comments]
+  
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]
 
