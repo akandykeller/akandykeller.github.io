@@ -73,8 +73,8 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 ## Teaching
 ### Master's Thesis Supervision
 - **Samarth Bhargav**: [Geometric Priors for Disentangling Representations](http://scriptiesonline.uba.uva.nl/document/676481)
-- **Noah van Grinsven**: Spatio-Temporal Forecasting On Graphs With Incomplete Data (ongoing)
-- **Fiorella Wever**: Predicting contraceptive changes and discontinuation using large-scale data from a menstrual cycle tracking mobile application (ongoing)
+- **Noah van Grinsven**:[Spatio-Temporal Forecasting On Graphs With Incomplete Data](https://scripties.uba.uva.nl/search?id=719556)
+- **Fiorella Wever**: [As easy as APC: Leveraging self-supervised learning in the context of time series classification with varying levels of sparsity and severe class imbalance](https://arxiv.org/abs/2106.15577)
 
 ### As Teaching Assistant
 - Leren (Bachelor's Machine Learning)
@@ -82,11 +82,10 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 - [Data Visualization](https://mas-dse.github.io/DSE241/exercises/) (D3.js) 
 
 ## Personal
-Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I am also an active organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
+Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I am also a mentor within the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
 
-# Social Media
+## Twitter
 
 <div style="width: 100%; overflow: hidden;">
      <div style="margin-left: 50px; width: 350px; height: 454px; float: left;">  <a class="twitter-timeline" href="https://twitter.com/t_andy_keller?ref_src=twsrc%5Etfw">Tweets by t_andy_keller</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-     <div style="margin-left: 50px;"> <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/29469611/latest-rides/5b9c0f7af24df56fcbe46f3d9aa50e6b5196723d'></iframe> </div>
 </div>
