@@ -1,6 +1,6 @@
 ---
 layout: about
-image: /assets/img/about_me/me_square_256.jpg
+image: /assets/img/about_me/me_square_427.jpg
 description: >
   Description of Andy Keller
 hide_description: true
@@ -10,10 +10,9 @@ redirect_from:
 # About Me
 {:.lead}
 
-![me](/assets/img/about_me/me_long.jpg){: location='center' width="512" height="512" loading="lazy"}
+![me](/assets/img/about_me/me_square_427.jpg){: location='left' width="427" height="427" loading="lazy"}
 
-
-My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on developing new methods for robust and generalizable respresentation learning with minimal supervision. I take inspiration from a geometric understanding and biological observations whenever possible. My research interests broadly include: *Probabilistic Generative Models, Equivariant Representations, & Biologically Inspired Algorithms*
+My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a third-year PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on probabilistic generative models, inspired by observations and theories from neuroscience. My current interests broadly include: developing unsupervised methods for learning approximately equivariant representations, exploring the computation benefits of topographically organized representations, and improving techniques for efficiently training deep latent variable models. 
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
@@ -72,6 +71,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 
 ## Teaching
 ### Master's Thesis Supervision
+- **Qinghe Gao**: Modeling the Observed Domain-Specificity in the Visual Cortex using Topographic Variational Autoencoders (in submission)
 - **Samarth Bhargav**: [Geometric Priors for Disentangling Representations](http://scriptiesonline.uba.uva.nl/document/676481)
 - **Noah van Grinsven**:[Spatio-Temporal Forecasting On Graphs With Incomplete Data](https://scripties.uba.uva.nl/search?id=719556)
 - **Fiorella Wever**: [As easy as APC: Leveraging self-supervised learning in the context of time series classification with varying levels of sparsity and severe class imbalance](https://arxiv.org/abs/2106.15577)
@@ -82,7 +82,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 - [Data Visualization](https://mas-dse.github.io/DSE241/exercises/) (D3.js) 
 
 ## Personal
-Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I am also a mentor within the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
+Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I was also an organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
 
 ## Twitter
 

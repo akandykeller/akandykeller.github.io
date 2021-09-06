@@ -7,6 +7,7 @@ title: Self Normalizing Flows
     1958w:  /assets/img/snf_overview@0,25x.png
     979w:  /assets/img/snf_overview@0,125x.png -->
 sitemap: false
+comments: true
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
 ![Self Normalizing Flow Overview](/assets/img/research/snf/snf_overview_single_longer_small.jpg){:.lead width="2974" height="958" loading="lazy"}

@@ -45,16 +45,16 @@ author:
   name:                Andy Keller
   email:               akandykeller@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter:             nd_rs_n
+  twitter:             t_andy_keller
 
 # Add links to the sidebar.
 menu:
+  - title:             About Me
+    url:               /about/
   - title:             Research
     url:               /research/
   # - title:             Blog
-  #   url:               /blog/
-  - title:             About Me
-    url:               /about/
+    # url:               /blog/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -184,11 +184,11 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      G-BN6TN0CBJX
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                takeller
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -339,8 +339,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-# twitter:
-#   username:            <username>
+twitter:
+  username:            t_andy_keller
 
 # Used for facebook open graph
 # facebook:
@@ -349,11 +349,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Andy Keller
+  links:
+    - https://twitter.com/t_andy_keller
+    - https://github.com/akandykeller
 
 
 # Plugin Configs
