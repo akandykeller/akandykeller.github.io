@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?nygrbl');
-  src:  url('fonts/icomoon.eot?nygrbl#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nygrbl') format('truetype'),
-    url('fonts/icomoon.woff?nygrbl') format('woff'),
-    url('fonts/icomoon.svg?nygrbl#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?l9z7wn');
+  src:  url('fonts/icomoon.eot?l9z7wn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l9z7wn') format('truetype'),
+    url('fonts/icomoon.woff?l9z7wn') format('woff'),
+    url('fonts/icomoon.svg?l9z7wn#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-googlescholar:before {
+  content: "\e900";
+}
 .icon-book:before {
   content: "\e91f";
 }
@@ -243,7 +246,4 @@
 }
 .icon-box-add:before {
   content: "\e95e";
-}
-.icon-googlescholar:before {
-  content: "\e900";
 }
