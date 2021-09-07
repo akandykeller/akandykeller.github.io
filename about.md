@@ -16,6 +16,9 @@ My first name is Thomas, but most people call me by my middle name -- Andy. I'm 
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
+**Find [my publication list on Google Scholar](https://scholar.google.com/citations?user=Tb86kC0AAAAJ)**
+
+
 ## Education (click <img src="/assets/img/about_me/triangle.jpg" width="20"/> to expand)
 <details>
   <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam   </summary>
