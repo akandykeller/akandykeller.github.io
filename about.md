@@ -12,7 +12,7 @@ redirect_from:
 
 ![me](/assets/img/about_me/me_square_427.jpg){: location='left' width="427" height="427" loading="lazy"}
 
-My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a third-year PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on probabilistic generative models, inspired by observations and theories from neuroscience. My current interests broadly include: developing unsupervised methods for learning approximately equivariant representations, exploring the computation benefits of topographically organized representations, and improving techniques for efficiently training deep latent variable models. 
+My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a third-year PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on probabilistic generative models inspired by observations and theories from neuroscience. My current interests broadly include: developing unsupervised methods for learning approximately equivariant & invariant representations, exploring the computational benefits of topographically organized representations, and improving techniques for efficiently training deep latent variable models. 
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
@@ -21,7 +21,7 @@ My first name is Thomas, but most people call me by my middle name -- Andy. I'm 
   <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam   </summary>
 
   Supervisor: Max Welling <br/>
-  Focus: Probabilistic Generative Models, Equivariance, Biologically Inspired Algorithms
+  Focus: Probabilistic Generative Models, Approximate Equivariance, Biologically Inspired Algorithms
 </details>
 
 <details>
