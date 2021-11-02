@@ -21,8 +21,8 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 *ArXiv Paper*: <https://arxiv.org/abs/2011.07248> \\
 *Accepted at:* [ICML 2021](https://icml.cc/Conferences/2021/Schedule?showEvent=10717) and [Beyond Backpropagation](https://beyondbackprop.github.io/) workshop at NeurIPS 2020 
 {:.note title="Full Paper"}
-<https://www.youtube.com/watch?v=6Q3b3MergqI>
-{:.note title="Video Overview"}
+<!-- <https://www.youtube.com/watch?v=6Q3b3MergqI> -->
+<!-- {:.note title="Video Overview"} -->
 [Github.com/akandykeller/SelfNormalizingFlows](https://github.com/akandykeller/SelfNormalizingFlows)
 {:.note title="Code"}
 
@@ -30,6 +30,9 @@ Efficient gradient computation of the Jacobian determinant term is a core proble
 
 - Table of Contents
 {:toc}
+
+## Video Summary
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6Q3b3MergqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 The goal of a probabilistic generative model is to accurately capture the true data generating process.[^1] Popular examples of such models include latent variable models (like Variational Autoencoders) or implicit probabilistic models (like Generative Adverserial Networks). In this work, we focus on another relatively recent technique for learning models of complex probability distributions -- normalizing flows.
