@@ -12,7 +12,7 @@ redirect_from:
 
 ![me](/assets/img/about_me/me_square_427.jpg){: location='left' width="427" height="427" loading="lazy"}
 
-My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a third-year PhD student supervised by Max Welling at the University of Amsterdam. My work is focused on unsupervised structured representation learning, inspired and supported by observations from neuroscience. In pursuit of this goal, during my PhD I have developed novel methods for probabilistic generative modeling which make use of biologically plausible mechanisms such as learned feedback connections and topographic organization to approximate otherwise analytically intractible solutions. In the long term, I hope to be able to answer the question of how transformations and invariances are learned and encoded in the brain, and further understand how the 2-dimensional structure of the cortical surface shapes how learning proceeds. More immediately, my current interests broadly include: developing unsupervised methods for learning approximately equivariant & invariant representations, exploring the computational benefits of topographically organized representations, and improving techniques for efficiently training deep latent variable models. 
+My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a final year PhD student supervised by Max Welling at the University of Amsterdam, planning to graduate in the Summer of 2023, and actively looking for next steps! My PhD is focused on developing deep probabilistic generative models which are meaningfully structured with respect to observed real-world transformations. Such structure permits both improved generalization in previously unobserved settings and reduced sample complexity on natural tasks, thereby addressing two of the fundamental limitations of modern deep neural networks. The approaches which I have taken to develop such structured representation learning algorithms have been directly motivated by observations from neuroscience, such as topographic organization and cortical traveling waves, and further reinforced by ideas from machine learning and cognitive theory such as equivariance, optimal transport, and intuitive physics. In the long term, the goal of my research is to understand the abstract mechanisms underlying the apparent sample efficiency and generalizability of natural intelligence, and then integrate these into artificially intelligent systems. In the short term, I hope to be able to answer the question of how transformations and invariances are learned and encoded in the brain, what inductive biases lie behind our natural notions of intuitive physics, and further understand how the 2-dimensional structure of the cortical surface shapes how learning proceeds. 
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
@@ -21,10 +21,10 @@ My first name is Thomas, but most people call me by my middle name -- Andy. I'm 
 
 ## Education (click <img src="/assets/img/about_me/triangle.jpg" width="20"/> to expand)
 <details>
-  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2022)* University of Amsterdam   </summary>
+  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2023)* University of Amsterdam   </summary>
 
   Supervisor: Max Welling <br/>
-  Focus: Probabilistic Generative Models, Approximate Equivariance, Biologically Inspired Algorithms
+  Thesis: Structured Representation Learning with Probabalistic Generative Models
 </details>
 
 <details>
@@ -40,6 +40,16 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 
 
 ## Experience
+<details>
+  <summary markdown="span">  **Apple Machine Learning Research** (Summer 2022)  </summary>
+  <ul>
+    <li> Developed ”Homomorphic Self-Supervised Learning”, a framework which subsumes data augmentation in self-supervised learning through structured equivariant representations. </li>
+    <li> Published NeurIPS 2022 Self-Supervised Learninng Workshop paper based on work, full AISTATS paper still under review.  </li>
+    <li> Additional work from collaboration in submission at ICML 2023 </li>
+  </ul>
+</details>
+
+
 <details>
   <summary markdown="span">  **Intel Nervana AI Lab** (2016 - 2018)  </summary>
   <ul>
@@ -85,7 +95,7 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 - [Data Visualization](https://mas-dse.github.io/DSE241/exercises/) (D3.js) 
 
 ## Personal
-Privately, I enjoy cooking (working on my [vegan tacos](https://www.instagram.com/tacosbygringos/)), running, and playing with my gymnastics rings. I was also an organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
+Privately, I enjoy cooking ([@TheOtherThomasKeller](https://www.instagram.com/theotherthomaskeller/)), running, and playing with my gymnastics rings. I was also an organizing member of the [Inclusive AI](https://uva-iai.github.io/) group at the UvA whose goal is to reduce harmful bias (both algorithmic and human) in the field of machine learning. Please feel free to email me if you have any questions!
 
 ## Twitter
 

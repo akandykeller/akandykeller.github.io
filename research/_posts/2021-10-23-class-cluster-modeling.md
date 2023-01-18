@@ -15,7 +15,8 @@ Category-selectivity in the brain describes the observation that certain spatial
 {:.note title="Abstract"}
 **T. Anderson Keller***,  [Qinghe Gao*](https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/about-the-department/product-and-process-engineering/people/phds/qinghe-gao), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
 {:.note title="Authors -- * Equal Contribution"}
-*Preprint (under review)*: <https://arxiv.org/abs/2110.13911> 
+**Best Paper Award** *at [NeurIPS 2021 workshop on Shared Visual Representations of Humans and Machines](https://sites.google.com/view/neurips2021-svrhm2021)* \\
+*Arxiv Paper:* <https://arxiv.org/abs/2110.13911> 
 {:.note title="Full Paper"}
 [Github.com/AKAndykeller/CategorySelectiveTVAE](https://github.com/akandykeller/CategorySelectiveTVAE)
 {:.note title="Code"}
