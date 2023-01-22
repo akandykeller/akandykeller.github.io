@@ -27,6 +27,17 @@ Category-selectivity in the brain describes the observation that certain spatial
 - Table of Contents
 {:toc}
 
+## Oral Presentation
+<div id="presentation-embed-38974327"></div>
+<script src='https://slideslive.com/embed_presentation.js'></script>
+<script>
+    embed = new SlidesLiveEmbed('presentation-embed-38974327', {
+        presentationId: '38974327',
+        autoPlay: false, // change to true to autoplay the embedded presentation
+        verticalEnabled: true
+    });
+</script>
+
 <!-- ## The Fusiform Face Area
 I first heard about the Fusiform Face Area (FFA) when watching [Nancy Kanwisher's excellent lectures from her course at MIT: (9.11) The Human Brain](https://www.youtube.com/watch?v=i1pdQjdAndc&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0). The idea that there was a localized region of the cotrtex that responded specifically to faces was perhaps not  -->
 
