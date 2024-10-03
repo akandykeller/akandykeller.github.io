@@ -7,24 +7,36 @@ hide_description: true
 redirect_from:
   - /download/
 ---
-# About Me
-{:.lead}
+
 
 ![me](/assets/img/about_me/me_square_427.jpg){: location='left' width="427" height="427" loading="lazy"}
 
-My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a final year PhD student supervised by Max Welling at the University of Amsterdam, planning to graduate in the Summer of 2023, and actively looking for next steps! My PhD is focused on developing deep probabilistic generative models which are meaningfully structured with respect to observed real-world transformations. Such structure permits both improved generalization in previously unobserved settings and reduced sample complexity on natural tasks, thereby addressing two of the fundamental limitations of modern deep neural networks. The approaches which I have taken to develop such structured representation learning algorithms have been directly motivated by observations from neuroscience, such as topographic organization and cortical traveling waves, and further reinforced by ideas from machine learning and cognitive theory such as equivariance, optimal transport, and intuitive physics. In the long term, the goal of my research is to understand the abstract mechanisms underlying the apparent sample efficiency and generalizability of natural intelligence, and then integrate these into artificially intelligent systems. In the short term, I hope to be able to answer the question of how transformations and invariances are learned and encoded in the brain, what inductive biases lie behind our natural notions of intuitive physics, and further understand how the 2-dimensional structure of the cortical surface shapes how learning proceeds. 
+
+# About Me
+{:.lead}
 
 **Find [my full C.V. here](/assets/img/about_me/cv.pdf)**
 
 **Find [my publication list on Google Scholar](https://scholar.google.com/citations?user=Tb86kC0AAAAJ)**
 
 
+My first name is Thomas, but most people call me by my middle name -- Andy. I'm currently a Research Fellow at the [Kempner Institute at Harvard University](https://kempnerinstitute.harvard.edu), focused on developing deep probabilistic generative models that are meaningfully structured with respect to observed, real-world transformations. Such structure permits both improved generalization in previously unobserved settings and reduced sample complexity on natural tasks, thereby addressing two of the fundamental limitations of modern deep neural networks. The approaches I have taken to develop such structured representation learning algorithms have been directly motivated by observations from neuroscience —- such as topographic organization and cortical traveling waves -- and are further reinforced by ideas from machine learning and cognitive theory, such as equivariance, optimal transport, and intuitive physics. In the long term, the goal of my research is to understand the abstract mechanisms underlying the apparent sample efficiency and generalizability of natural intelligence, and then integrate these into artificially intelligent systems. In the short term, I hope to be able to answer the question of how transformations and invariances are learned and encoded in the brain, what inductive biases lie behind our natural abilities, and to further understand how the two-dimensional structure of the cortical surface shapes how learning proceeds.
+
+My background is in machine learning and computer science, having pursued undergraduate and masters degrees at Caltech and UCSD respectively, then working on deep learning research at Intel Nervana. Most recently, I completed my PhD at the University of Amsterdam under the supervision of Max Welling, where I became fascinated with the brain and how its physical organization might play a role in computation. Simultaneously, I got excited by the question of how abstract computational systems might represent the complex, ever-changing world in structured ways. As a result, my studies naturally gravitated towards the intersection of these two ideas, largely by building new deep neural network models to test long-standing hypotheses from neuroscience relating structure to function. Ultimately, my work at the Kempner Institute is a direct continuation of these ideas, with the ultimate goal of developing the next generation of artificial neural networks to help us understand the brain in new and meaningful ways.
+
+
 ## Education (click <img src="/assets/img/about_me/triangle.jpg" width="20"/> to expand)
 <details>
-  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - expected 2023)* University of Amsterdam   </summary>
+  <summary markdown="span"> **Kempner Research Fellow (Postdoctoral)** *(2023 - Now)* Harvard University, Kempner Institute   </summary>
+
+  In Collaboration With: Talia Konkle, Demba Ba, Cengiz Pehlevan, Kanaka Rajan.
+</details>
+
+<details>
+  <summary markdown="span"> **Ph.D. Machine Learning** *(2018 - 2023)* University of Amsterdam   </summary>
 
   Supervisor: Max Welling <br/>
-  Thesis: Structured Representation Learning with Probabalistic Generative Models
+  Thesis: Natural Inductive Biases for Artificial Intelligence
 </details>
 
 <details>
