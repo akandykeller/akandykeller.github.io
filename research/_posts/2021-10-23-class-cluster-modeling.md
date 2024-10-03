@@ -13,7 +13,7 @@ Measurement of selectivity of top-layer neurons to images of _Faces_ vs. images 
 
 Category-selectivity in the brain describes the observation that certain spatially localized areas of the cerebral cortex tend to respond robustly and selectively to stimuli from specific limited categories. One of the most well known examples of category-selectivity is the Fusiform Face Area (FFA), an area of the inferior temporal cortex in primates which responds preferentially to images of faces when compared with objects or other generic stimuli. In this work, we leverage the newly introduced Topographic Variational Autoencoder to model of the emergence of such localized category-selectivity in an unsupervised manner. Experimentally, we demonstrate our model yields spatially dense neural clusters selective to faces, bodies, and places through visualized maps of Cohen's d metric. We compare our model with related supervised approaches, namely the TDANN, and discuss both theoretical and empirical similarities. Finally, we show preliminary results suggesting that our model yields a nested spatial hierarchy of increasingly abstract categories, analogous to observations from the human ventral temporal cortex. 
 {:.note title="Abstract"}
-**T. Anderson Keller***,  [Qinghe Gao*](https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/about-the-department/product-and-process-engineering/people/phds/qinghe-gao), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
+**T. Anderson Keller**,  [Qinghe Gao*](https://www.tudelft.nl/tnw/over-faculteit/afdelingen/chemical-engineering/about-the-department/product-and-process-engineering/people/phds/qinghe-gao), [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
 {:.note title="Authors -- * Equal Contribution"}
 **Best Paper Award** *at [NeurIPS 2021 workshop on Shared Visual Representations of Humans and Machines](https://sites.google.com/view/neurips2021-svrhm2021)* \\
 *Arxiv Paper:* <https://arxiv.org/abs/2110.13911> 
@@ -37,6 +37,9 @@ Category-selectivity in the brain describes the observation that certain spatial
         verticalEnabled: true
     });
 </script>
+
+## Tweet-print
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Can specialized ‘patches’ in the brain be described by the efficient coding hypothesis?<br><br>Together with <a href="https://twitter.com/QingheGao?ref_src=twsrc%5Etfw">@qinghegao</a> and <a href="https://twitter.com/wellingmax?ref_src=twsrc%5Etfw">@wellingmax</a>, we show how localized selectivity arises naturally from the principle of redundancy reduction in Topographic VAEs:<br>📃 <a href="https://t.co/zHrfDsgny6">https://t.co/zHrfDsgny6</a><br><br>🧵/ <a href="https://t.co/N0MkXiUmKC">pic.twitter.com/N0MkXiUmKC</a></p>&mdash; Andy Keller (@t_andy_keller) <a href="https://twitter.com/t_andy_keller/status/1455496581097082881?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- ## The Fusiform Face Area
 I first heard about the Fusiform Face Area (FFA) when watching [Nancy Kanwisher's excellent lectures from her course at MIT: (9.11) The Human Brain](https://www.youtube.com/watch?v=i1pdQjdAndc&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0). The idea that there was a localized region of the cotrtex that responded specifically to faces was perhaps not  -->

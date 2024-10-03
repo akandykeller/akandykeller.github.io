@@ -96,9 +96,9 @@ Thesis: <emph>Comparison and Fine-grained Analysis of Sequence Encoders for Natu
 
 ## Teaching
 ### Master's Thesis Supervision
-- **Qinghe Gao**: Modeling the Observed Domain-Specificity in the Visual Cortex using Topographic Variational Autoencoders (in submission)
-- **Samarth Bhargav**: [Geometric Priors for Disentangling Representations](http://scriptiesonline.uba.uva.nl/document/676481)
-- **Noah van Grinsven**:[Spatio-Temporal Forecasting On Graphs With Incomplete Data](https://scripties.uba.uva.nl/search?id=719556)
+- **Qinghe Gao**: [Modeling the Observed Domain-Specificity in the Visual Cortex using Topographic Variational Autoencoders](https://arxiv.org/abs/2110.13911)
+- **Samarth Bhargav**: Geometric Priors for Disentangling Representations
+- **Noah van Grinsven**: [Spatio-Temporal Forecasting On Graphs With Incomplete Data](https://scripties.uba.uva.nl/search?id=719556)
 - **Fiorella Wever**: [As easy as APC: Leveraging self-supervised learning in the context of time series classification with varying levels of sparsity and severe class imbalance](https://arxiv.org/abs/2106.15577)
 
 ### As Teaching Assistant

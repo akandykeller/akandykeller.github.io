@@ -8,8 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am  a Ph.D. Student supervised by [Max Welling](https://staff.fnwi.uva.nl/m.welling/) at the University of Amsterdam. 
-    My research is focused on unsupervised structured representation learning, inspired and supported by observations from neuroscience.
+    I am a Postdoctoral Reseach Fellow at the Harvard Kempner Institute, studying structured representation learning, inspired and supposed by observations from neuroscience.
     See [About Me](/about) for more information.
 
   # This photo will be used in the about section

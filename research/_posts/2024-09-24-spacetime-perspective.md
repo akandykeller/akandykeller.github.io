@@ -17,9 +17,10 @@ There is now substantial evidence for traveling waves and other structured spati
 *Preprint (under review)*: <https://arxiv.org/abs/2409.13669> 
 {:.note title="Full Paper"}
 
+## Video Summary
+<iframe width="894" height="503" src="https://www.youtube.com/embed/FeVHfmRSicQ?si=XAE3XKoEqCztAD5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
  
-
 <!-- {:.lead} -->
 
-- Table of Contents
-{:toc}
+<!-- - Table of Contents
+{:toc} -->
