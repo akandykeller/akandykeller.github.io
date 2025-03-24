@@ -17,10 +17,29 @@ There is now substantial evidence for traveling waves and other structured spati
 *Preprint (under review)*: <https://arxiv.org/abs/2409.13669> 
 {:.note title="Full Paper"}
 
-## Video Summary
-<iframe width="894" height="503" src="https://www.youtube.com/embed/FeVHfmRSicQ?si=XAE3XKoEqCztAD5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
- 
-<!-- {:.lead} -->
 
-<!-- - Table of Contents
-{:toc} -->
+<!-- - Table of Contents -->
+<!-- {:toc} -->
+
+## Video Summary ([NeurReps Global Speaker Series](https://www.neurreps.org/speaker-series))
+<iframe width="894" height="503" src="https://www.youtube.com/embed/FeVHfmRSicQ?si=XAE3XKoEqCztAD5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- ## Introduction
+To date 
+
+
+Scientific paradigms guide how we interpret data and the shape the direction of research programs. In the field of neuroscience, the dominant conceptual paradigms are focused on hierarchically elaborated receptive fields, and the spatial organization of selectivity. 
+
+Structured spatiotemporal dynamics have been observed in biological neural systems since the earliest neural recordings. However, these findings have traditionally been seen to clash with the dominant conceptual paradigms of structured 'crystalline' organization of neural selectivity and 'function'. In this perspective, we propose an alternative
+
+## Paradigms of Neural Computation
+
+## Evidence for a Shift
+
+## Foundations of Spatiotemporal Dynamics
+
+## A Spacetime Perspective on Symmetry in Neural Representations
+
+## A Unifying Perspective of Natural and Artificial Intelligence -->
+
+<!-- {:.lead} -->
