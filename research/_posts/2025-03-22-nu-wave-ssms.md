@@ -1,4 +1,4 @@
-t ---
+---
 layout: post
 title: Understanding The Convolutional Layer in State Space Models
 <!-- image: /assets/img/research/nuwave/Overview.png -->
