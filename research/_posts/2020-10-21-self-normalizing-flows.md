@@ -8,6 +8,11 @@ title: Self Normalizing Flows
     979w:  /assets/img/snf_overview@0,125x.png -->
 sitemap: false
 comments: true
+
+venue: "ICML '21"
+award: ""
+citation: "<strong>T. A. Keller</strong>, J. W. T. Peters, P. Jaini, E. Hoogeboom, P. Forré, and M. Welling (July 2021). <i>Self Normalizing Flows</i>. In: Proceedings of the 38th International Conference on Machine Learning (ICML). vol. 139. Proceedings of Machine Learning Research. PMLR, pp. 5378–5387."
+paper_url: "https://proceedings.mlr.press/v139/keller21a.html"
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
 ![Self Normalizing Flow Overview](/assets/img/research/snf/snf_overview_single_longer_small.jpg){:.lead width="2974" height="958" loading="lazy"}

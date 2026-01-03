@@ -4,6 +4,13 @@ title: Modeling Category-Selective Cortical Regions with Topographic VAEs
 <!-- image: /assets/img/research/tvae/comm_diag.png -->
 sitemap: false
 comments: true
+
+venue: "SVRHM '22"
+citation: "<strong>T. A. Keller</strong>, Q. Gao, and M. Welling (2021). <i>Modeling Category-Selective Cortical Regions with Topographic Variational Autoencoders</i>. In: Shared Visual Representations in Humans and Machines (SVRHM) Workshop @ NeurIPS. <strong>Best Paper Award</strong>."
+paper_url: "https://openreview.net/forum?id=yGRq_lW54bI"
+award: "<strong>Best Paper</strong>"
+
+research_group: "Modeling Spatiotemporal Neural Dynamics"
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
 ![Face Clusters](/assets/img/research/clusters/Selectivity_FC6.png){:.lead width="3460" height="1331" loading="lazy"}

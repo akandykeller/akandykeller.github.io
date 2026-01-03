@@ -4,6 +4,15 @@ title: A Spacetime Perspective on Dynamical Computation in Neural Information Pr
 <!-- image: /assets/img/research/wrnn/waves.png -->
 sitemap: false
 comments: true
+research_group: "Spatiotemporal Dynamics"  
+
+venue: "Nat. Comms."
+award: "Under Review"
+citation: "<strong>T. A. Keller</strong>, L. Muller, T. J. Sejnowski, and M. Welling (2024). <i>A Spacetime Perspective on Dynamical Computation in Neural Information Processing Systems</i>. arXiv: 2409.13669 [q-bio.NC]."
+paper_url: "https://arxiv.org/abs/2409.13669"
+
+research_group: "Time-Parameterized Symmetries"
+
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
 ![Spacetime_Inseparability](/assets/img/research/spacetime/inseparability.png){:.lead width="800" height="400" loading="lazy"}

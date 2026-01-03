@@ -4,6 +4,12 @@ title: Relative Representations for Model-to-Brain Mappings
 <!-- image: /assets/img/research/wrnn/waves.png -->
 sitemap: false
 comments: true
+research_group: "Neuroscience"   # <-
+
+venue: "CCN '24"
+award: "Abstract"
+citation: "<strong>T. A. Keller</strong>, T. Konkle, and C. Conwell (2024). <i>Towards the Use of Relative Representations for Lower-Dimensional, Interpretable Model-to-Brain Mappings</i>. In: Conference on Cognitive Computational Neuroscience (CCN)."
+paper_url: "https://2024.ccneuro.org/poster/?id=317"
 ---
 <!-- ![Full-width image](/assets/img/overview_long.png){:.lead width="800" height="100" loading="lazy"} -->
 ![Relative_Reps](/assets/img/research/relative_reps/Relative_Reps.png){:.lead width="800" height="400" loading="lazy"}
@@ -17,6 +23,15 @@ Current model-to-brain mappings are computed over thou- sands of features. These
 *Accepted at [CCN 2024](https://2024.ccneuro.org) (Poster)* \\
 *Conference Abstract:* <https://2024.ccneuro.org/pdf/492_Paper_authored_AnchorEmbeddings_CCN2024_named.pdf>  
 {:.note title="Full Paper"}
+<pre><code>  
+@inproceedings{keller2024relative,
+    title={Relative Representations for Model-to-Brain Mappings},
+    author={Keller, T. Anderson and Konkle, Talia and Conwell, Colin},
+    booktitle={CCN},
+    year={2024}
+  }</code></pre>
+{:.note title="BibTex"}
+
  
 
 <!-- {:.lead} -->

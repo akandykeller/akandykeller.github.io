@@ -4,6 +4,13 @@ title: Understanding The Convolutional Layer in State Space Models
 <!-- image: /assets/img/research/nuwave/Overview.png -->
 sitemap: false
 comments: true
+
+venue: "COSYNE '25"
+award: "Abstract"
+citation: "<strong>T. A. Keller</strong> (2025). <i>Nu-Wave State Space Models: Traveling Waves as a Biologically Plausible Context</i>. In: Science Communications Worldwide. doi: 10.57736/b30b-8eed."
+paper_url: "https://www.world-wide.org/cosyne-25/nu-wave-state-space-models-traveling-3803805f"
+
+research_group: "Modeling Spatiotemporal Neural Dynamics"
 ---
 ![Nu Wave](/assets/img/research/nuwave/Overview.png){:.lead width="800" height="400" loading="lazy"}
 Visualization of traveling waves found in the original Mamba architecture (left) and the variable velocity traveling waves we introduce in the Nu-Wave Mamba model (left). We see the variable velocity model learns exponentially faster and reaches lower error than the original counterpart.
