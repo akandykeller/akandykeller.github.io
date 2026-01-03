@@ -54,7 +54,9 @@ menu:
     url:               /about/
   - title:             Research Statement
     url:               /research/
-  - title:             Publications
+  - title:             Invited Talks
+    url:               /talks/
+  - title:             Publication List
     url:               /publications/
   - title:             CV
     url:               /assets/img/about_me/cv.pdf
