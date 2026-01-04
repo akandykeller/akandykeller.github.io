@@ -14,7 +14,7 @@ permalink: /talks/
   [The Computational Inductive Biases of Spatiotemporal Artificial Neural Networks **(link to recording)**](https://www.youtube.com/watch?v=Rd-4lubEYc4){:.talk-title}
 - **Neuro AI Emerging Leaders Webinar** — *(Virtual)*{:.talk-loc}  
   [The Computational Inductive Biases of Spatiotemporal Dynamics **(link to recording)**](https://www.youtube.com/watch?v=nmiGZo5uPH4){:.talk-title}
-- **[AI, Brain, & Cognition Seminar, Center for NeuroImaging Research](https://www.ibs.re.kr/eng/sub02_06_09.do)** — *(Virtual (Seoul, South Korea))*{:.talk-loc}  
+- **[AI, Brain, & Cognition Seminar, Center for NeuroImaging Research](https://www.ibs.re.kr/eng/sub02_06_09.do)** — *(Virtual: Seoul, South Korea)*{:.talk-loc}  
   *Computational Inductive Biases of Spatiotemporal Dynamics*{:.talk-title}
 - **[Miller Lab Reading Group](https://ekmillerlab.mit.edu)** — *(MIT, USA)*{:.talk-loc}  
   *Spatiotemporal Dynamics in RNNs as Flow Equivariance*{:.talk-title}
@@ -22,7 +22,7 @@ permalink: /talks/
   *Flow Equivariance*{:.talk-title}
 - **[Flagship Pioneering](https://www.flagshippioneering.com)** — *(Boston, USA)*{:.talk-loc}  
   *Flow Equivariance: Enforcing Time-Parameterized Symmetries in Sequence Models*{:.talk-title}
-- **[Shine Lab Group Meeting](https://shine-lab.org)** — *(Virtual (Sydney, Australia))*{:.talk-loc}  
+- **[Shine Lab Group Meeting](https://shine-lab.org)** — *(Virtual: Sydney, Australia)*{:.talk-loc}  
   *A Spatiotemporal Perspective on Dynamical Computation*{:.talk-title}
 - **Harvard SEAS Workshop on Structured Learning in Vision, Imaging, and Robotics** — *(Harvard, USA)*{:.talk-loc}  
   *Flow Equivariance in Embodied Visual Systems*{:.talk-title}
@@ -36,9 +36,9 @@ permalink: /talks/
   [Wave Information Processing Systems **(link to recording)**](https://www.youtube.com/watch?v=2kre5gyfLzI){:.talk-title}
 - **[Yale Wu Tsai Neuro AI Seminar](https://wti.yale.edu)** — *(New Haven, CT, USA)*{:.talk-loc}  
   *A Spacetime Perspective on Neural Information Processing Systems*{:.talk-title}
-- **[Computational Neuroscience Next Generation Symposium](https://ctcn.wustl.edu/2024-next-gen-symposium/)** — *(St. Louis, MO, USA)*{:.talk-loc}  
+- **[Computational Neuroscience Next Generation Symposium](https://ctcn.wustl.edu/2024-next-gen-symposium/)** — *(Wash. U. St. Louis, MO, USA)*{:.talk-loc}  
   *A Spacetime Perspective on Neural Information Processing Systems*{:.talk-title}
-- **CERN CMS Machine Learning Seminar** — *(Virtual (Geneva, Switzerland))*{:.talk-loc}  
+- **CERN CMS Machine Learning Seminar** — *(Virtual: Geneva, Switzerland)*{:.talk-loc}  
   *Traveling Waves in Brains and Machines*{:.talk-title}
 - **[Fiete Lab Group Meeting](https://fietelab.mit.edu)** — *(MIT, USA)*{:.talk-loc}  
   *Natural Representational Structure*{:.talk-title}
@@ -60,7 +60,7 @@ permalink: /talks/
   *Natural Neural Structure for Artificial Intelligence*{:.talk-title}
 - **[Salk Institute Computational Neurobiology Lab Group Meeting](https://cnl.salk.edu)** — *(La Jolla, CA, USA)*{:.talk-loc}  
   *Traveling Waves Encode the Recent Past and Enhance Sequence Learning*{:.talk-title}
-- **[EPFL Laboratory for Computational Neuroscience](https://www.epfl.ch/labs/lcn/)** — *(Virtual (Lausanne, Switzerland))*{:.talk-loc}  
+- **[EPFL Laboratory for Computational Neuroscience](https://www.epfl.ch/labs/lcn/)** — *(Virtual: Lausanne, Switzerland)*{:.talk-loc}  
   *Naturally Structured Representations in Artificial Neural Networks*{:.talk-title}
 - **[BINDS Reading Club](https://www.cics.umass.edu/organizations/binds)** — *(UMass Amherst, USA)*{:.talk-loc}  
   *Traveling Waves Encode the Recent Past and Enhance Sequence Learning*{:.talk-title}
@@ -70,7 +70,7 @@ permalink: /talks/
 
 - **[Geometric Deep Learning Seminar](https://geodl-seminar.github.io)** — *(Amsterdam, Netherlands)*{:.talk-loc}  
   [Topographic Generative Models Learn Structured Representations **(link to recording)**](https://www.youtube.com/watch?v=57yE8qapp9A){:.talk-title}
-- **[Seminar on Advances in Probabilistic Machine Learning](https://aaltoml.github.io/apml/)** — *(Virtual (Helsinki, Finland))*{:.talk-loc}  
+- **[Seminar on Advances in Probabilistic Machine Learning](https://aaltoml.github.io/apml/)** — *(Virtual: Aalto University, Finland)*{:.talk-loc}  
   *Topographic Variational Autoencoders Learn Equivariant Capsules*{:.talk-title}
 {:.talks-list}
 
@@ -78,8 +78,8 @@ permalink: /talks/
 
 - **[Bosch Center for AI Workshop on Deep Probabilistic Models](https://www.bosch-ai.com)** — *(Renningen, Germany)*{:.talk-loc}  
   *Self-Normalizing Flows*{:.talk-title}
-- **[Debora Marks Lab Group Meeting](https://www.deboramarkslab.com)** — *(Virtual (Harvard, USA))*{:.talk-loc}  
+- **[Debora Marks Lab Group Meeting](https://www.deboramarkslab.com)** — *(Virtual: Harvard, USA)*{:.talk-loc}  
   *Equivariance & Topographic Generative Models*{:.talk-title}
-- **Intel Deep Learning Community of Practice** — *(Virtual (Santa Clara, CA, USA))*{:.talk-loc}  
+- **Intel Deep Learning Community of Practice** — *(Virtual: Santa Clara, CA, USA)*{:.talk-loc}  
   *Topographic Generative Models Learn Structured Representations*{:.talk-title}
 {:.talks-list}
