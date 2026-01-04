@@ -15,7 +15,7 @@ redirect_from:
 # About Me
 {:.lead}
 
-**Find [my full C.V. here](/assets/img/about_me/cv.pdf) and [my publication list on Google Scholar](https://scholar.google.com/citations?user=Tb86kC0AAAAJ)**
+**Find [my full C.V. here](/assets/img/about_me/cv.pdf) and [my publication list on Google Scholar](https://scholar.google.com/citations?user=Tb86kC0AAAAJ).**
 
 My name is Thomas Anderson (“Andy”) Keller. I study how biological and artificial neural systems build representations that enable efficienct learning and strong generalization in the complex and messy real world. In particular, I am interested in the transformations that happen all around us, all the time -- when objects move, viewpoints shift, and context drifts over time, how do we continue to act reliably? My work sits at the intersection of neuroscience and machine learning, and I describe my research agenda as **Geometric NeuroAI**, using symmetry, dynamics, and physically grounded inductive biases to understand neural computation and to design models that generalize more predictably.  
 
