@@ -2,3 +2,46 @@
 .sidebar a {
   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
 }
+
+/* Talks page */
+.talks-list {
+  list-style: none;
+  margin: 0.5rem 0 1.75rem;
+  padding-left: 0;
+}
+
+.talks-list li {
+  position: relative;
+  margin: 0.9rem 0;
+  padding-left: 1.4rem;
+  line-height: 1.35;
+}
+
+.talks-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.12rem;
+  opacity: 0.75;
+}
+
+/* Use the YouTube icon as the bullet marker when the list item contains a YouTube link */
+.talks-list li:has(a[href*="youtube.com"])::before,
+.talks-list li:has(a[href*="youtu.be"])::before {
+  content: "\ea9d";
+  font-family: 'icomoon' !important;
+  color: #ff0000;
+  opacity: 1;
+  top: 0.08rem;
+}
+
+.talk-loc {
+  opacity: 0.85;
+  font-size: 0.95em;
+}
+
+.talk-title {
+  display: inline-block;
+  margin-top: 0.15rem;
+  font-style: italic;
+}
