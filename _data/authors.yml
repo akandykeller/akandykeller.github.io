@@ -26,6 +26,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     twitter:         t_andy_keller
+    bluesky:         andykeller.bsky.social
     github:          akandykeller
     email:           akandykeller@gmail.com
     # rss:             https://<url>/feed.xml

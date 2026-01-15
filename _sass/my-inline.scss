@@ -45,3 +45,14 @@
   margin-top: 0.15rem;
   font-style: italic;
 }
+
+/* Sidebar social icon: Bluesky */
+.icon-bluesky:before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: url("/assets/img/global/bluesky.svg") no-repeat center / contain;
+  mask: url("/assets/img/global/bluesky.svg") no-repeat center / contain;
+}
