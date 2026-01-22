@@ -6,8 +6,8 @@ sitemap: false
 comments: true
 
 venue: "AISTATS '26"
-award: "Under review"
-citation: "E. L. Byrnes Finn, B. Wang, <strong>T. A. Keller</strong>, and D. E. Ba (2026). <i>Where the Score Lives: A Wavelet View of Diffusion</i>. In: Proceedings of the 29th International Conference on Artificial Intelligence and Statistics (AISTATS). Under review. Accepted at SPIGM Workshop @ NeurIPS 2025."
+award: ""
+citation: "E. L. Byrnes Finn, B. Wang, <strong>T. A. Keller</strong>, and D. E. Ba (2026). <i>Where the Score Lives: A Wavelet View of Diffusion</i>. In: Proceedings of the 29th International Conference on Artificial Intelligence and Statistics (AISTATS). Also accepted at SPIGM Workshop @ NeurIPS 2025."
 paper_url: "https://openreview.net/forum?id=fmlzopxjxq"
 ---
 ![Where the Score Lives](/assets/img/research/wavelet-score/teaser.png){:.lead width="500" height="320" loading="lazy"}
@@ -19,8 +19,8 @@ Diffusion models have had remarkable success over the last decade in generating 
 Emma Lucia Byrnes Finn, Binxu Wang, **T. Anderson Keller**, Demba E. Ba
 {:.note title="Authors"}
 
-*Accepted at [SPIGM Workshop @ NeurIPS 2025](https://neurips.cc/virtual/2025/workshop/109570)* \\
-*Under Review at [AISTATS '26](https://virtual.aistats.org/Conferences/2026)*\\
+*Accepted in Proceedings of [AISTATS '26](https://virtual.aistats.org/Conferences/2026)*\\
+*Also Accepted at [SPIGM Workshop @ NeurIPS 2025](https://neurips.cc/virtual/2025/workshop/109570)* \\
 *Paper:* <https://openreview.net/forum?id=fmlzopxjxq>
 {:.note title="Full Paper"}
 
