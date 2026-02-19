@@ -52,8 +52,8 @@ author:
 menu:
   - title:             About Me
     url:               /about/
-  - title:             Research Statement
-    url:               /research/
+  # - title:             Research Statement
+    # url:               /research/
   - title:             Invited Talks
     url:               /talks/
   - title:             Publication List
