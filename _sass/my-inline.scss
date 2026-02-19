@@ -25,9 +25,10 @@
   opacity: 0.75;
 }
 
-/* Use the YouTube icon as the bullet marker when the list item contains a YouTube link */
+/* Use the recording icon as the bullet marker for supported video/recording hosts */
 .talks-list li:has(a[href*="youtube.com"])::before,
-.talks-list li:has(a[href*="youtu.be"])::before {
+.talks-list li:has(a[href*="youtu.be"])::before,
+.talks-list li:has(a[href*="neurips.cc/virtual/"])::before {
   content: "\ea9d";
   font-family: 'icomoon' !important;
   color: #ff0000;

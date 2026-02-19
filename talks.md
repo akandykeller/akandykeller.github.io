@@ -6,8 +6,13 @@ permalink: /talks/
 <!-- {:.lead} -->
 <!-- Talk titles link to recordings when available. -->
 
-## 2025
+<!-- ## 2026
+- **Cold Spring Harbor Laboratory Fellows Seminar** - *(Virtual: Long Island, NY)*{:.talk-loc}
+  [Geometric NeuroAI: Studying the Symmetric and Geometric Inductive Biases of Natural Intelligence] -->
 
+## 2025
+- **NeurIPS Panel Discussion (NeuReps Workshop)** - *(San Diego, CA)*{:.talk-loc}
+  [With Max Tegmark, Sue Yeon Chung, Surya Ganguli, David Klindt. **(link to recording)**](https://neurips.cc/virtual/2025/loc/san-diego/136286){:.talk-title}
 - **NSF IAIFAI Colloquium** — *(MIT/Harvard, USA)*{:.talk-loc}  
   [Flow Equivariance: Enforcing Time-Parameterized Symmetries in Sequence Models **(link to recording)**](https://www.youtube.com/watch?v=fO-wsJgGeL8){:.talk-title}
 - **Fields Symposium on Spatiotemporal Neural Dynamics** — *(University of Toronto, Canada)*{:.talk-loc}  
