@@ -6,9 +6,13 @@ permalink: /talks/
 <!-- {:.lead} -->
 <!-- Talk titles link to recordings when available. -->
 
-<!-- ## 2026
-- **Cold Spring Harbor Laboratory Fellows Seminar** - *(Virtual: Long Island, NY)*{:.talk-loc}
-  [Geometric NeuroAI: Studying the Symmetric and Geometric Inductive Biases of Natural Intelligence] -->
+## 2026
+- **[Cold Spring Harbor Laboratory](https://www.cshl.edu)** - *(Long Island, NY)*{:.talk-loc}
+  *Geometric NeuroAI: Studying the Symmetric and Geometric Inductive Biases of Natural Intelligence*{:.talk-title}
+- **[IE University, School of Science and Technology](https://www.ie.edu/school-science-technology/)** - *(Madrid, Spain)*{:.talk-loc}
+  *Natural Inductive Biases for Efficient and Generalizable Artificial Intelligence*{:.talk-title}
+- **[Institute de la Vision, Sorbonne University](https://www.institut-vision.org): Theory Group Meeting** - *(Paris, France)*{:.talk-loc}
+  *Flow Equivariance:  Enforcing Time-Parameterized Symmetries in Sequence Models*{:.talk-title}
 
 ## 2025
 - **NeurIPS Panel Discussion (NeuReps Workshop)** - *(San Diego, CA)*{:.talk-loc}
