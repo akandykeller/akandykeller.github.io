@@ -13,6 +13,8 @@ permalink: /talks/
   *Natural Inductive Biases for Efficient and Generalizable Artificial Intelligence*{:.talk-title}
 - **[Institute de la Vision, Sorbonne University](https://www.institut-vision.org): Theory Group Meeting** - *(Paris, France)*{:.talk-loc}
   *Flow Equivariance:  Enforcing Time-Parameterized Symmetries in Sequence Models*{:.talk-title}
+- **Guest Lecture: [Applied Math 231, Decision Theory @ Harvard](https://qrd.college.harvard.edu/directory/apmth-231-decision-theory/)** — *(Harvard, USA)*{:.talk-loc}  
+  *Investigating the Blurred Lines between RNNs and Physical Dynamical Systems*{:.talk-title}
 
 ## 2025
 - **NeurIPS Panel Discussion (NeuReps Workshop)** - *(San Diego, CA)*{:.talk-loc}
