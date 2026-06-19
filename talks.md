@@ -7,6 +7,10 @@ permalink: /talks/
 <!-- Talk titles link to recordings when available. -->
 
 ## 2026
+- **[International Conference on the Mathematics of Neuroscience and AI (neuroMONSTER)](https://www.neuromonster.org)** - *(Rome, IT)*{:.talk-loc}
+  *The Role of Spacetime Symmetries in Neural Networks*{:.talk-title}
+- **[International Conference on Mathematical Neuroscience, Minisymposium](https://www.crmath.ca/en/activities/#/type/activity/id/4076)** - *(Montreal, CA)*{:.talk-loc}
+  *A Spatiotemporal Perspective on Motion and Memory*{:.talk-title}
 - **[Cold Spring Harbor Laboratory](https://www.cshl.edu)** - *(Long Island, NY)*{:.talk-loc}
   *Geometric NeuroAI: Studying the Symmetric and Geometric Inductive Biases of Natural Intelligence*{:.talk-title}
 - **[IE University, School of Science and Technology](https://www.ie.edu/school-science-technology/)** - *(Madrid, Spain)*{:.talk-loc}
