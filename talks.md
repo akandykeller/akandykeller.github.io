@@ -15,7 +15,6 @@ permalink: /talks/
   *A Spatiotemporal Perspective on Motion and Memory*{:.talk-title}
 - **[Telluride Neuromorphic AI Workshop](https://sites.google.com/view/telluride-2026/home)** - *(Telluride, USA)*{:.talk-loc}
   *An Introduction to Spatiotemporal Dynamics in Artificial Neural Networks*{:.talk-title}
-- **[International Conference on Mathematical Neuroscience, Minisymposium](https://www.crmath.ca/en/activities/#/type/activity/id/4076)** - *(Montreal, CA)*{:.talk-loc}
 - **[Cold Spring Harbor Laboratory](https://www.cshl.edu)** - *(Long Island, NY)*{:.talk-loc}
   *Geometric NeuroAI: Studying the Symmetric and Geometric Inductive Biases of Natural Intelligence*{:.talk-title}
 - **[IE University, School of Science and Technology](https://www.ie.edu/school-science-technology/)** - *(Madrid, Spain)*{:.talk-loc}
